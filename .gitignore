@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Flask
+instance/
+.webassets-cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated posters
+static/generated/*.png
+static/generated/*.jpg
+static/generated/*.jpeg
+!static/generated/.gitkeep
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.flaskenv
